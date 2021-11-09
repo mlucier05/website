@@ -4,37 +4,121 @@
 <head>
 	<meta charset="uft-8">
 	<title>mlucier's Epic Website</title>
+	<style>
+		body {
+			background-color: #265c42;
+		}
+
+		#links {
+			display: grid;
+			grid-template-rows: 10vh 10vh;
+			grid-template-columns: auto auto auto auto auto;
+		}
+
+		#header {
+			display: flex;
+			justify-content: center;
+		}
+
+		#header h1 {
+			text-align: center;
+			color: #63c74d;
+			background-color: #193c3e;
+			margin: 1vw;
+			padding: 1vw;
+			border-radius: 0.5vw;
+			width: 35vw;
+			height: 3vw;
+		}
+
+		#tictactoeLink {
+			text-align: center;
+			background-color: #63c74d;
+			margin-bottom: 1vh;
+			padding-top: 0.5vh;
+			grid-area: 1 / 1 / 1 / 2;
+		}
+
+		#checkmarkLink {
+			text-align: center;
+			background-color: #63c74d;
+			margin-bottom: 1vh;
+			padding-top: 0.5vh;
+			grid-area: 1 / 2 / 1 / 3;
+		}
+
+		#hyperlinkHubLink {
+			text-align: center;
+			background-color: #63c74d;
+			margin-bottom: 1vh;
+			padding-top: 0.5vh;
+			grid-area: 1 / 3 / 1 / 4;
+		}
+
+		#surveyLink {
+			text-align: center;
+			background-color: #63c74d;
+			margin-bottom: 1vh;
+			padding-top: 0.5vh;
+			grid-area: 1 / 4 / 1 / 5;
+		}
+
+		#favoriteVideoGamesLink {
+			text-align: center;
+			background-color: #63c74d;
+			margin-bottom: 1vh;
+			padding-top: 0.5vh;
+			grid-area: 1 / 5 / 1 / 6;
+		}
+
+		footer {
+			text-align: center;
+			grid-area: 2 / 3 / 2 / 4;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- content starts below here -->
-	<h1>mlucier's Epic Website Homepage</h1>
+	<main>
+		<div id="header">
+			<h1>mlucier's Epic Website Homepage</h1>
+		</div>
 
-	<img src="../resources/homepage.png" width="200" alt="homepage.png">
+		<pre><h2>   Featured Pages</h2></pre>
+		<div id="links">
+			<div id="tictactoeLink">
+				<a href="tictactoe.html">
+					<h4>Tic Tac Toe</h4>
+				</a>
+			</div>
+			<div id="checkmarkLink">
+				<a href="checkmark_pixel_design_studio.html">
+					<h4>Checkmark Pixel Design Studio</h4>
+				</a>
+			</div>
+			<div id="hyperlinkHubLink">
+				<a href="hyperlink_hub.html">
+					<h4>Hyperlink Hub</h4>
+				</a>
+			</div>
+			<div id="surveyLink">
+				<a href="feedback_survey.html">
+					<h4>Feedback Survey</h4>
+				</a>
+			</div>
+			<div id="favoriteVideoGamesLink">
+				<a href="favorite_video_games.html">
+					<h4>Favorite Video Games</h4>
+				</a>
+			</div>
 
-	<fieldset>
-		<legend>Featured Pages</legend>
-		<a href="tictactoe.html">
-			<h4>Tic Tac Toe</h4>
-		</a>
-		<a href="checkmark_pixel_design_studio.html">
-			<h4>Checkmark Pixel Design Studio</h4>
-		</a>
-		<a href="hyperlink_hub.html">
-			<h4>Hyperlink Hub</h4>
-		</a>
-		<a href="feedback_survey.html">
-			<h4>Feedback Survey</h4>
-		</a>
-		<a href="favorite_video_games.html">
-			<h4>Favorite Video Games</h4>
-		</a>
-	</fieldset>
-
-	<footer style="text-align: center;">
-		<a href="http://validator.w3.org/check/referer">
-			<strong> HTML </strong> Valid! </a>
-	</footer>
+			<footer style="text-align: center;">
+				<a href="http://validator.w3.org/check/referer">
+					<strong> HTML </strong> Valid! </a>
+			</footer>
+		</div>
+	</main>
 	<!--content ends above here -->
 </body>
 
