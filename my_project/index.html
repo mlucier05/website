@@ -15,11 +15,32 @@
 			grid-template-columns: auto auto auto auto auto;
 		}
 
-		#links a {
-			text-decoration: none;
-			color: #ffae70;
+		#links {
+			display: flex;
+			justify-content: space-around;
+
+			border-radius: 10px;
+			background-color: #52333f;
 		}
 
+		#links a {
+			flex-grow: 1;
+			text-align: center;
+			text-decoration: none;
+			font-size: 17px;
+			color: #ffae70;
+			border-width: 3px;
+			border-style: solid;
+			border-color: #52333f;
+			border-radius: 10px;
+		}
+
+		#links a:hover {
+			border-radius: 10px;
+			border-width: 3px;
+			border-style: solid;
+			border-color: #ffae70;
+		}
 
 		#header {
 			display: flex;
@@ -35,46 +56,6 @@
 			border-radius: 0.75vw;
 			width: 35vw;
 			height: 3vw;
-		}
-
-		#tictactoeLink {
-			text-align: center;
-			background-color: #52333f;
-			margin-bottom: 1vh;
-			padding-top: 0.5vh;
-			grid-area: 1 / 1 / 1 / 2;
-		}
-
-		#checkmarkLink {
-			text-align: center;
-			background-color: #52333f;
-			margin-bottom: 1vh;
-			padding-top: 0.5vh;
-			grid-area: 1 / 2 / 1 / 3;
-		}
-
-		#hyperlinkHubLink {
-			text-align: center;
-			background-color: #52333f;
-			margin-bottom: 1vh;
-			padding-top: 0.5vh;
-			grid-area: 1 / 3 / 1 / 4;
-		}
-
-		#surveyLink {
-			text-align: center;
-			background-color: #52333f;
-			margin-bottom: 1vh;
-			padding-top: 0.5vh;
-			grid-area: 1 / 4 / 1 / 5;
-		}
-
-		#favoriteVideoGamesLink {
-			text-align: center;
-			background-color: #52333f;
-			margin-bottom: 1vh;
-			padding-top: 0.5vh;
-			grid-area: 1 / 5 / 1 / 6;
 		}
 
 		#heading2 {
@@ -98,31 +79,31 @@
 
 		<div id="heading2">Featured Pages</div>
 		<div id="links">
-			<div id="tictactoeLink">
+			<!--<div id="tictactoeLink">-->
 				<a href="tictactoe.html">
 					<h4>Tic Tac Toe</h4>
 				</a>
-			</div>
-			<div id="checkmarkLink">
+			<!--</div>
+			<div id="checkmarkLink">-->
 				<a href="checkmark_pixel_design_studio.html">
 					<h4>Checkmark Pixel Design Studio</h4>
 				</a>
-			</div>
-			<div id="hyperlinkHubLink">
+			<!--</div>
+			<div id="hyperlinkHubLink">-->
 				<a href="hyperlink_hub.html">
 					<h4>Hyperlink Hub</h4>
 				</a>
-			</div>
-			<div id="surveyLink">
+			<!--</div>
+			<div id="surveyLink">-->
 				<a href="feedback_survey.html">
 					<h4>Feedback Survey</h4>
 				</a>
-			</div>
-			<div id="favoriteVideoGamesLink">
+			<!--</div>
+			<div id="favoriteVideoGamesLink">-->
 				<a href="favorite_video_games.html">
 					<h4>Favorite Video Games</h4>
 				</a>
-			</div>
+			<!--</div>-->
 		</div>
 
 		<footer style="text-align: center;">
