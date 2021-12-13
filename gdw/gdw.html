@@ -19,6 +19,9 @@
 
 		main {
 			grid-area: 1 / 2 / 4 / 5;
+			display: grid;
+			grid-template-columns: auto;
+			grid-template-rows: auto auto auto auto;
 			border: 4px solid #FF5F7E;
 			border-radius: 10px;
 		}
@@ -26,8 +29,7 @@
 		header {
 			color: #FFAB4C;
 			font-family: superbold;
-			font-size: 25px;
-			grid-area: 1 / 3 / 1 / 3;
+			font-size: 20px;
 			text-align: center;
 			border: 4px solid #FF5F7E;
 			border-radius: 10px;
@@ -38,28 +40,26 @@
 		}
 
 		.header {
-      grid-area: 2 / 3 / 2 / 3;
-      text-align: center;
+			text-align: center;
 			border: 4px solid #FF5F7E;
-      border-top-left-radius: 10px;
+			border-top-left-radius: 10px;
 			border-top-right-radius: 10px;
-      padding-top: 1%;
-      padding-bottom: 1%;
-      margin-left: 30%;
-      margin-right: 30%;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			margin-left: 30%;
+			margin-right: 30%;
 			color: #FFAB4C;
-      font-family: superbold;
-      font-size: 15px;
-    }
+			font-family: superbold;
+			font-size: 15px;
+		}
 
 		ul {
-			grid-area: 2 / 3 / 2 / 3;
-      text-align: center;
+			text-align: center;
 			border: 4px solid #FF5F7E;
-      border-bottom-left-radius: 10px;
+			border-bottom-left-radius: 10px;
 			border-bottom-right-radius: 10px;
 			margin-left: 30%;
-      margin-right: 30%;
+			margin-right: 30%;
 			margin-top: -0.5%;
 			list-style-type: none;
 			padding-left: 0;
@@ -67,9 +67,9 @@
 
 		ul a {
 			color: #FF5F7E;
-      text-decoration: none;
-      font-family: superbold;
-      font-size: 15px;
+			text-decoration: none;
+			font-family: superbold;
+			font-size: 15px;
 			margin-top: 0.75%;
 			margin-bottom: 0.75%;
 		}
@@ -79,34 +79,44 @@
 		}
 
 		footer {
-      grid-area: 3 / 3 / 3 / 3;
-      text-align: center;
-      border: 4px solid #FF5F7E;
-      padding-top: 1%;
-      padding-bottom: 1%;
-      margin-left: 35%;
-      margin-right: 35%;
-      margin-top: 3%;
-      margin-bottom: -0.5%;
-    }
+			text-align: center;
+			border: 4px solid #FF5F7E;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-top: 8%;
+			margin-bottom: -0.5%
+		}
 
-    #validatorHyper a {
-      color: #FF5F7E;
-      text-decoration: none;
-      font-family: superbold;
-      font-size: 15px;
-    }
+		#validatorHyper a {
+			color: #FF5F7E;
+			text-decoration: none;
+			font-family: superbold;
+			font-size: 15px;
+		}
 
-    #validatorHyper a:hover {
-      text-decoration: none;
-      color: #FFAB4C;
-    }
+		#validatorHyper a:hover {
+			text-decoration: none;
+			color: #FFAB4C;
+		}
+
+		aside {
+			text-align: center;
+			margin-left: -90%;
+			margin-top: -4%;
+			margin-bottom: 1%;
+		}
+
+		#backHyper a {
+			text-decoration: none;
+		}
 	</style>
 </head>
 
 <body>
 	<main>
-		<header>Getting Down With HTML & CSS</header>
+		<header>Getting Down With<br> HTML & CSS</header>
 		<div class="header">Elements</div>
 		<ul>
 			<li><a href="block.html">Block-level Elements</a></li>
@@ -142,6 +152,8 @@
 					<strong>CSS </strong> Valid!</a>
 			</div>
 		</footer>
+
+		<aside id="backHyper"><a href="index.html">Back</a></aside>
 	</main>
 </body>
 
