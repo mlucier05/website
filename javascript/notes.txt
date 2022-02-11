@@ -1,5 +1,9 @@
+ Chapter 1/2
 - Strings can be written using "",'', or ``
 - Use ${} inside of strings for template literals (math)
 - When comparing strings, for the most part it is alphabetic but uppercase is less than lowercase
 - Ternary operators use "?" depending on result of the conditional operator it decides the output
 - Short circuiting binary operators exists like in java
+
+Chapter 3
+- 
