@@ -6,4 +6,6 @@
 - Short circuiting binary operators exists like in java
 
 Chapter 3
-- 
+- Functions kind of look like variables, and they act as methods would in java
+- The scopes of bindings, constants, and variables, are quite easy to understand
+- Functions that are declared automatically get moved to the "top" of the flow of control
