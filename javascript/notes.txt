@@ -13,3 +13,5 @@ Chapter 3
 - If the Call Stack gets too large, js will produce an error
 - js will accept any number of arguments into a function regardless if they are the correct type or amount
 - Using an "=" after an argument means that the argument will equal that if an input isn't given, like a fallback or default
+- Closure allows you to only use bindings when you actually need them and discard them otherwise
+- Recursion can be used to have a function repeat itself over and over
