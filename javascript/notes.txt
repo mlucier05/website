@@ -14,4 +14,7 @@ Chapter 3
 - js will accept any number of arguments into a function regardless if they are the correct type or amount
 - Using an "=" after an argument means that the argument will equal that if an input isn't given, like a fallback or default
 - Closure allows you to only use bindings when you actually need them and discard them otherwise
+- It is important to know that function values remember the environment where they were created, not where they were called
 - Recursion can be used to have a function repeat itself over and over
+- Programmers need to find a good balance between easy for humans to read and easy for computers read when writing code
+- Functions are useful for not having to repeat code over and over again, which reduces bugs and increases clarity
