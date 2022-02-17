@@ -3,7 +3,7 @@
 function countBs(str) {
   let count = 0;
   for (pos = 0; pos < str.length; pos++) {
-    if (str[pos] == "B") {
+    if (str[pos] === "B") {
       count++;
     }
   }
@@ -13,7 +13,7 @@ function countBs(str) {
 function countChar(str, char) {
   let count = 0;
   for (pos = 0; pos < str.length; pos++) {
-    if (str[pos] == char) {
+    if (str[pos] === char) {
       count++;
     }
   }
