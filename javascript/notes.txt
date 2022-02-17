@@ -19,3 +19,4 @@ Chapter 3
 - Programmers need to find a good balance between easy for humans to read and easy for computers read when writing code
 - Functions are useful for not having to repeat code over and over again, which reduces bugs and increases clarity
 - Naming functions is important so that other people can understand your code well
+- Rather than making a new function for a multitude of similar things, make one function for all of them
