@@ -1,3 +1,5 @@
+//Minimum
+
 function min(x1, x2) {
   if (x1 > x2) {
     return (x2);

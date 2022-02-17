@@ -1,4 +1,5 @@
 //Chessboard
+
 let size = 6;
 let chessboard = "";
 
