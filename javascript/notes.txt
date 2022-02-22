@@ -21,3 +21,11 @@ Chapter 3
 - Naming functions is important so that other people can understand your code well
 - Rather than making a new function for a multitude of similar things, make one function for all of them
 - Functions can both return something and have a side effect
+
+Chapter 4
+- All js values have properties except for null and undefined
+- There are two ways to get to the properties of a value, either through "." or "[]"
+- Using the "." requires a valid binding name, and looks for a property specifically named what you inputted
+- Using the "[]" evaluates what is inside the square brackets, and then finds a corresponding value based on it
+- .toUpperCase() and .toLowerCase() are both built-in methods for strings
+- You can store multiple properties inside of one object using "nameOfProperty:" and then inputting the value
