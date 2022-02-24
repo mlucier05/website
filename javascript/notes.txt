@@ -33,3 +33,7 @@ Chapter 4
 - The binary "in" operator tells us whether a property is inside an object or not
 - Deleting an object then asking for its property through "in" will return false not undefined
 - Object.keys() returns the properties of the objects but in through its parameters
+- Object.assign() applies all properties of one object to another object
+- Numbers, Strings, and Booleans are all immutable, unlike objects
+- Two numbers hold the same value no matter what, while objects could be named one in the same yet represent completely different things
+- If you make two objects equal to one another, it stays that way, changing one will change the other
